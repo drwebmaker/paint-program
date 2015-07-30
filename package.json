@@ -1,0 +1,13 @@
+{
+  "name": "Paint",
+  "version": "0.0.1",
+  "author": "Valeriy Abornyev",
+  "description": "Prototype a paint online",
+  "devDependencies": {
+    "browserify": "latest"
+  },
+  "scripts": {
+    "build-js": "browserify app/app.js > js/main.js",
+    "watch-js": "watchify app/app.js -o js/main.js -vd"
+  }
+}
